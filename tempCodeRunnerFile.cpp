@@ -1,18 +1,10 @@
-#include <iostream>
-using namespace std;
-
-int main()
+void bai4(int n)
 {
-    // Bài 1: Nhập vào 2 số a và b. Bạn hãy in ra màn hình tổng và hiệu của 2 số đó.
-    int a, b;
-    cin >> a;
-    cin >> b;
-    cout << "a "
-         << "+"
-         << " b = " << a + b << endl;
-
-    cout << "a "
-         << "-"
-         << " b = " << a - b << endl;
-    return 0;
+    for (int i = 0; i <= n; i++)
+    {
+        if (n % 5 == 0)
+        {
+            cout << i << " ";
+        }
+    }
 }
