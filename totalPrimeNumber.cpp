@@ -8,7 +8,7 @@ bool is_prime(int n)
         return false;
     }
 
-    for (i = 2; i <= n / 2; ++i)
+    for (int i = 2; i <= n / 2; ++i)
     {
         if (n % i == 0)
         {

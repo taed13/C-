@@ -3,7 +3,8 @@
     "*.php": "php",
     "ostream": "cpp",
     "iostream": "cpp",
-    "__bit_reference": "cpp"
+    "__bit_reference": "cpp",
+    "string": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
