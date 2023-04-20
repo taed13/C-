@@ -125,13 +125,13 @@ int main()
                 int index;
                 cin >> index;
 
-                if (index < 0 || index > productCount)
+                if (index < 0 || index >= productCount)
                 {
                     cout << "Invalid index." << endl;
                 }
                 else
                 {
-                    for (int i = 0; i < productCount - 1; i++)
+                    for (int i = index; i < productCount - 1; i++)
                     {
                         product[i] = product[i + 1];
                     }
